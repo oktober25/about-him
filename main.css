@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.profile-card {
+  background-color: hsla(60, 100%, 50%, .4);
+  margin: 50px 0;
+}
+
+.head, .content {
+  background-color: hsla(105, 100%, 60%, .4);
+}
+
+.profile-images, .headline, .links, .about {
+  background-color: hsla(280, 100%, 80%, .4);
+}
+
+.profile-images {
+  float: left;
+  width: 60%;
+  position: relative;
+}
+
+.head {
+  float: left;
+  width: 40%;
+  padding: 5px 10px;
+  margin-top: 40px;
+}
+
+.back {
+  width: 100%;
+  background-attachment: scroll;
+}
+
+.little {
+  position: absolute;
+  right: 20px;
+  top: 200px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.about {
+  text-align: justify;
+  width: 90%;
+  padding: 5px 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
